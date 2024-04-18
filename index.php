@@ -10,7 +10,7 @@
     </select>
     <br/>
     <?php
-        echo "帳號：<input type=text name=ac value=".$_COOKIE["name"]."><br/>"
+        echo "帳號：<input type=text name=ac value=".@$_COOKIE["name"]."><br/>"
     ?>
     密碼：<input type=password name=pw><br/>
 
